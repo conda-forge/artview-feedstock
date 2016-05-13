@@ -1,13 +1,17 @@
+{% set version = "1.2.3" %}
+
 package:
   name: artview
-  version: "1.2"
+  version: {{ version }}
 
 source:
-  git_url: https://github.com/nguy/artview
-  git_rev: v1.2
+  fn: artview-{{ version }}.tar.gz
+  url: https://github.com/nguy/artview/releases/download/Release_v1.2/artview-{{ version }}.tar.gz
+  sha256: 9fd8c78439f9a3867a1a4579c5430f9b0338d1b7652e34ccb3e7a008a202b4b2
 
 build:
   number: 0
+  script: python setup.py install
 
 requirements:
   build:
@@ -27,7 +31,7 @@ test:
 
 about:
   home: https://github.com/nguy/artview
-  license: BSD
+  license: BSD 3-Clause
   summary: ARM Radar Toolkit Viewer
 
 extra:

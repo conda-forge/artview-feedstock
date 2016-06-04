@@ -5,7 +5,7 @@ Home: https://github.com/nguy/artview
 
 Package license: BSD
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: ARM Radar Toolkit Viewer
 
@@ -69,9 +69,15 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/artview-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/artview-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/artview-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/artview-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/artview-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/artview-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/artview/badges/version.svg)](https://anaconda.org/conda-forge/artview)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/artview/badges/downloads.svg)](https://anaconda.org/conda-forge/artview)
 
 
 Updating artview-feedstock

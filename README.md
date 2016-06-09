@@ -3,7 +3,7 @@ About artview
 
 Home: https://github.com/nguy/artview
 
-Package license: BSD
+Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 

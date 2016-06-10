@@ -1,4 +1,4 @@
-{% set version = "1.2" %}
+{% set version = "1.2.3" %}
 
 package:
   name: artview
@@ -6,8 +6,8 @@ package:
 
 source:
   fn: artview-{{ version }}.tar.gz
-  url: https://github.com/nguy/artview/archive/v{{ version }}.tar.gz
-  sha256: db88e269a319b42781fab6016b029c3e07446cc7899135d78b46a62e4ae512ca
+  url: https://github.com/nguy/artview/releases/download/Release_v1.2/artview-{{ version }}.tar.gz
+  sha256: b3c4dd5e9f4d676852e4993bec8208277c4435e3f24086d16b9a18a27486c32c
 
 build:
   number: 0

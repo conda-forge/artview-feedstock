@@ -10,7 +10,7 @@ source:
   sha256: db88e269a319b42781fab6016b029c3e07446cc7899135d78b46a62e4ae512ca
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install
 
 requirements:
@@ -18,12 +18,12 @@ requirements:
     - python
     - arm_pyart >=1.5
     - matplotlib >=1.1
-    - pyqt >=4.6
+    - pyqt 4.11.*
   run:
     - python
     - arm_pyart >=1.5
     - matplotlib >=1.1
-    - pyqt >=4.6
+    - pyqt 4.11.*
 
 test:
   imports:

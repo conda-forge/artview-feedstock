@@ -14,14 +14,15 @@ Summary: ARM Radar Toolkit Viewer
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/artview-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/artview-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/artview-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/artview-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/artview-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/artview-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/artview-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/artview-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/artview/badges/version.svg)](https://anaconda.org/conda-forge/artview)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/artview/badges/downloads.svg)](https://anaconda.org/conda-forge/artview)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-artview-green.svg)](https://anaconda.org/conda-forge/artview) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/artview.svg)](https://anaconda.org/conda-forge/artview) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/artview.svg)](https://anaconda.org/conda-forge/artview) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/artview.svg)](https://anaconda.org/conda-forge/artview) |
 
 Installing artview
 ==================

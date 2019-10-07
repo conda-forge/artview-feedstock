@@ -36,6 +36,7 @@ test:
 about:
   home: https://github.com/nguy/artview
   license: BSD 3-Clause
+  license_file: LICENSE.md
   summary: ARM Radar Toolkit Viewer
 
 extra:
